@@ -1,0 +1,15 @@
+<div class="display" [ngClass]=" {'display' : displayCompras} ">
+    <h4 class="d-flex justify-content-center text-success h4"> Mis compras 
+            <button class="btn btn-danger ml-4" (click)= "hiden()"> Close</button> </h4>
+    <div class="myScroll container border-left">
+        <ul class="list-group-flush"> 
+            <li class="h4 list-group-item" *ngFor="let c of compras">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item "><small class="mr-1">Nombre:</small>{{c.nombre}}</li>
+                    <li class="list-group-item "><small class="mr-1">Cantidad:</small> {{c.cantidadCompra}}</li>
+                    <li class="list-group-item "><small class="mr-1">Total:</small>${{c.precio}}</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

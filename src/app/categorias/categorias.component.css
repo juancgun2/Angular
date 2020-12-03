@@ -1,0 +1,24 @@
+.categorias{ /*categorias cambie*/
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 2%;
+    row-gap: 3%;
+} 
+
+.textCategoria{  
+    display: flex;
+    flex-direction: column;
+    width: auto; /*285*/ 
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    font-size: 200%;
+    margin-top: 0;
+    background-color: lightgray;
+    justify-content: center; 
+    align-items: center;
+}   
+
+div.container section.container.categorias div.animacion:hover{ 
+    border: 1px solid transparent;
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgba(24, 23, 23, 0.411);
+} 

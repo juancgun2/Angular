@@ -1,0 +1,6 @@
+<div class="form-group mt-3"> 
+  <button type="button" class="btn btn-danger btn-xs" (click)="restarCantidad()">-</button>
+  <input class="inputXS ml-1 mr-1" type="text" [(ngModel)]=cantidad (keyup)='controlarInput($event)'>
+  <button type="button" class="btn btn-danger btn-xs" (click)="sumarCantidad()">+</button>
+</div>
+

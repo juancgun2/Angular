@@ -1,0 +1,15 @@
+.display {
+    display: none!important;
+}
+
+.myScroll { 
+    overflow-y: scroll;
+    max-height: 350px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} 
+::-webkit-scrollbar:hover {
+    display: block;
+}
